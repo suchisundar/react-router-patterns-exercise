@@ -1,0 +1,15 @@
+.DogList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem; /* Adjust gap as needed */
+  text-align: center; /* Ensure text is centered */
+}
+
+.DogList img {
+  border-radius: 100%;
+  width: 15rem; /* Use rem for better scalability */
+  border: 0.2rem solid slateblue;
+  box-shadow: 0 0 1rem #9e9e9e;
+}
